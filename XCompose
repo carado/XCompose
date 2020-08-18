@@ -1983,6 +1983,9 @@
 <Multi_key> <g> <J> : "Ψ"
 <Multi_key> <g> <W> : "Ω"
 
+# extra greek
+<Multi_key> <F> <F> : "ꟻ"
+
 # extra arrows
 <Multi_key> <minus> <n> <w> : "↖"
 <Multi_key> <minus> <n> <e> : "↗"
@@ -2019,7 +2022,7 @@
 <Multi_key> <e> <i> : " "
 <Multi_key> <less> <question> <greater> : "�"
 
-# bold/sets
+# blackborad bold/sets
 <Multi_key> <bar> <A> : "𝔸"
 <Multi_key> <bar> <B> : "𝔹"
 <Multi_key> <bar> <C> : "ℂ"
@@ -2075,13 +2078,10 @@
 <Multi_key> <bracketleft> <t> <o> <r> <i> <i> <bracketright> : "⛩"
 <Multi_key> <bracketleft> <g> <u> <n> <bracketright> : "🔫"
 <Multi_key> <bracketleft> <l> <e> <a> <f> <bracketright> : "🍁"
-<Multi_key> <y> <y> : "☯"
-<Multi_key> <k> <i> : "🌳"
+<Multi_key> <parenleft> <y> <y> <parenright> : "☯"
+<Multi_key> <bracketleft> <t> <r> <e> <e> <bracketright> : "🌳"
 <Multi_key> <parenleft> <colon> : "🙃"
 <Multi_key> <O> <O> : "⚭"
-
-# vau
-<Multi_key> <F> <F> : "ꟻ"
 
 # umlaut
 <Multi_key> <colon> <a> : "ä"
@@ -2112,11 +2112,11 @@
 <Multi_key> <s> <greater> : "⊃"
 <Multi_key> <s> <equal> <greater> : "⊇"
 <Multi_key> <s> <exclam> <greater> : "⊅"
-<Multi_key> <s> <bracketright> : "∈"
-<Multi_key> <s> <exclam> <bracketright> : "∉"
+<Multi_key> <s> <parenleft> : "∈"
+<Multi_key> <s> <exclam> <parenleft> : "∉"
 <Multi_key> <s> <0> : "∅"
-<Multi_key> <s> <bracketleft> : "∋"
-<Multi_key><s> <exclam> <bracketleft> : "∌"
+<Multi_key> <s> <parenright> : "∋"
+<Multi_key><s> <exclam> <parenright> : "∌"
 
 # math
 <Multi_key> <a> <l> : "ℵ"
