@@ -2078,10 +2078,16 @@
 <Multi_key> <bracketleft> <t> <o> <r> <i> <i> <bracketright> : "⛩"
 <Multi_key> <bracketleft> <g> <u> <n> <bracketright> : "🔫"
 <Multi_key> <bracketleft> <l> <e> <a> <f> <bracketright> : "🍁"
+<Multi_key> <bracketleft> <d> <a> <v> <i> <d> <bracketright> : "✡"
 <Multi_key> <parenleft> <y> <y> <parenright> : "☯"
 <Multi_key> <bracketleft> <t> <r> <e> <e> <bracketright> : "🌳"
 <Multi_key> <parenleft> <colon> : "🙃"
 <Multi_key> <O> <O> : "⚭"
+<Multi_key> <u> <o> : "◡"
+<Multi_key> <bracketleft> <d> <bracketright> : "♦"
+<Multi_key> <bracketleft> <c> <bracketright> : "♣"
+<Multi_key> <bracketleft> <h> <bracketright> : "♥"
+<Multi_key> <bracketleft> <s> <bracketright> : "♠"
 
 # umlaut
 <Multi_key> <colon> <a> : "ä"
