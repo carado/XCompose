@@ -2088,6 +2088,7 @@
 <Multi_key> <bracketleft> <c> <bracketright> : "♣"
 <Multi_key> <bracketleft> <h> <bracketright> : "♥"
 <Multi_key> <bracketleft> <s> <bracketright> : "♠"
+<Multi_key> <minus> <pipe> : "✝"
 
 # umlaut
 <Multi_key> <colon> <a> : "ä"
