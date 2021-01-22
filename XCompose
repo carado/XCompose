@@ -2075,7 +2075,7 @@
 
 # pictures
 <Multi_key> <bracketleft> <o> <n> <g> <r> <bracketright> : "🍙"
-<Multi_key> <bracketleft> <t> <o> <r> <i> <i> <bracketright> : "⛩"
+<Multi_key> <bar> <bar> : "⛩"
 <Multi_key> <bracketleft> <g> <u> <n> <bracketright> : "🔫"
 <Multi_key> <bracketleft> <l> <e> <a> <f> <bracketright> : "🍁"
 <Multi_key> <bracketleft> <d> <a> <v> <i> <d> <bracketright> : "✡"
