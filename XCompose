@@ -776,7 +776,7 @@
 <Multi_key> <slash> <I>          	: "Ɨ"   U0197 # LATIN CAPITAL LETTER I WITH STROKE
 <Multi_key> <KP_Divide> <I>      	: "Ɨ"   U0197 # LATIN CAPITAL LETTER I WITH STROKE
 <Multi_key> <plus> <O>           	: "Ơ"   U01A0 # LATIN CAPITAL LETTER O WITH HORN
-<Multi_key> <plus> <o>           	: "ơ"   U01A1 # LATIN SMALL LETTER O WITH HORN
+#<Multi_key> <plus> <o>           	: "ơ"   U01A1 # LATIN SMALL LETTER O WITH HORN
 <Multi_key> <plus> <U>           	: "Ư"   U01AF # LATIN CAPITAL LETTER U WITH HORN
 <Multi_key> <plus> <u>           	: "ư"   U01B0 # LATIN SMALL LETTER U WITH HORN
 <Multi_key> <slash> <Z>          	: "Ƶ"   U01B5 # LATIN CAPITAL LETTER Z WITH STROKE
@@ -1889,10 +1889,10 @@
 <Multi_key> <v> <slash>                         : "√"   U221a   # v / SQUARE ROOT
 <Multi_key> <8> <8>                             : "∞"   U221e   # 8 8 INFINITY
 <Multi_key> <equal> <underscore>                : "≡"   U2261   # = _ IDENTICAL TO
-<Multi_key> <less> <underscore>                 : "≤"   U2264   # < _ LESS-THAN OR EQUAL TO
-<Multi_key> <underscore> <less>                 : "≤"   U2264   # _ < LESS-THAN OR EQUAL TO
-<Multi_key> <greater> <underscore>              : "≥"   U2265   # > _ GREATER-THAN OR EQUAL TO
-<Multi_key> <underscore> <greater>              : "≥"   U2265   # _ > GREATER-THAN OR EQUAL TO
+#<Multi_key> <less> <underscore>                 : "≤"   U2264   # < _ LESS-THAN OR EQUAL TO
+#<Multi_key> <underscore> <less>                 : "≤"   U2264   # _ < LESS-THAN OR EQUAL TO
+#<Multi_key> <greater> <underscore>              : "≥"   U2265   # > _ GREATER-THAN OR EQUAL TO
+#<Multi_key> <underscore> <greater>              : "≥"   U2265   # _ > GREATER-THAN OR EQUAL TO
 #<Multi_key> <less> <greater>                    : "⋄"   U22c4   # < > DIAMOND OPERATOR
 #<Multi_key> <greater> <less>                    : "⋄"   U22c4   # > < DIAMOND OPERATOR
 <Multi_key> <colon> <period>                    : "∴"   therefore   # : . THEREFORE
@@ -1902,10 +1902,10 @@
 
 #<Multi_key> <bracketleft> <bracketright>        : "⌷"   U2337   # [ ] APL FUNCTIONAL SYMBOL SQUISH QUAD
 #<Multi_key> <bracketright> <bracketleft>        : "⌷"   U2337   # ] [ APL FUNCTIONAL SYMBOL SQUISH QUAD
-<Multi_key> <slash> <minus>                     : "⌿"   U233f   # / - APL FUNCTIONAL SYMBOL SLASH BAR
-<Multi_key> <minus> <slash>                     : "⌿"   U233f   # - / APL FUNCTIONAL SYMBOL SLASH BAR
-<Multi_key> <backslash> <minus>                 : "⍀"   U2340   # \ - APL FUNCTIONAL SYMBOL BACKSLASH BAR
-<Multi_key> <minus> <backslash>                 : "⍀"   U2340   # - \ APL FUNCTIONAL SYMBOL BACKSLASH BAR
+#<Multi_key> <slash> <minus>                     : "⌿"   U233f   # / - APL FUNCTIONAL SYMBOL SLASH BAR
+#<Multi_key> <minus> <slash>                     : "⌿"   U233f   # - / APL FUNCTIONAL SYMBOL SLASH BAR
+#<Multi_key> <backslash> <minus>                 : "⍀"   U2340   # \ - APL FUNCTIONAL SYMBOL BACKSLASH BAR
+#<Multi_key> <minus> <backslash>                 : "⍀"   U2340   # - \ APL FUNCTIONAL SYMBOL BACKSLASH BAR
 # I cannot get anything to work with <macron>. Given that no extant APLs use ⍑ I will just leave the lines
 # in place.
 # This line clashes with the <apostrophe> <underscore> <E> (and similar) that appear to be there to provide
@@ -2012,7 +2012,7 @@
 <Multi_key> <parenleft> <o> <parenright> : "◎"
 <Multi_key> <parenleft> <period> <parenright> : "◌"
 <Multi_key> <parenleft> <space> <parenright> : "○"
-<Multi_key> <parenleft> <parenright> : "◦"
+<Multi_key> <parenleft> <parenright> : "∘" #◦
 <Multi_key> <bar> <greater> : "▷"
 <Multi_key> <less> <bar> : "◁"
 <Multi_key> <f> <bar> <greater> : "▶"
@@ -2075,6 +2075,7 @@
 
 # pictures
 <Multi_key> <bracketleft> <o> <n> <g> <r> <bracketright> : "🍙"
+<Multi_key> <bracketleft> <j> <a> <p> <a> <n> <bracketright> : "🗾"
 <Multi_key> <bar> <bar> : "⛩"
 <Multi_key> <bracketleft> <g> <u> <n> <bracketright> : "🔫"
 <Multi_key> <bracketleft> <l> <e> <a> <f> <bracketright> : "🍁"
@@ -2089,6 +2090,13 @@
 <Multi_key> <bracketleft> <h> <bracketright> : "♥"
 <Multi_key> <bracketleft> <s> <bracketright> : "♠"
 <Multi_key> <minus> <bar> : "✝"
+<Multi_key> <plus> <o> <c> : "☿"
+<Multi_key> <slash> <plus> <backslash> : "🜍"
+<Multi_key> <parenleft> <minus> <parenright> : "🜔"
+<Multi_key> <slash> <minus> <backslash> : "🜁"
+<Multi_key> <slash> <underscore> <backslash> : "🜂"
+<Multi_key> <backslash> <minus> <slash> : "🜃"
+<Multi_key> <backslash> <underscore> <slash> : "🜄"
 
 # umlaut
 <Multi_key> <colon> <a> : "ä"
@@ -2260,4 +2268,6 @@
 <Multi_key> <asciicircum> <asciicircum> <n> : "ⁿ"
 <Multi_key> <asciicircum> <asciicircum> <w> : "ʷ"
 <Multi_key> <colon> <plus> : "ː"
+<Multi_key> <grave> <r> : "ɹ"
+
 
