@@ -1587,11 +1587,11 @@
 <Multi_key> <KP_Divide> <rightarrow> 	: "↛"   U219B # RIGHTWARDS ARROW WITH STROKE
 <Multi_key> <less> <minus> 	: "←" U2190 # LEFTWARDS ARROW
 <Multi_key> <minus> <greater> 	: "→" U2192 # RIGHTWARDS ARROW
-<Multi_key> <equal> <greater> 	: "⇒" U21D2 # RIGHTWARDS DOUBLE ARROW
+#<Multi_key> <equal> <greater> 	: "⇒" U21D2 # RIGHTWARDS DOUBLE ARROW
 <Multi_key> <braceleft> <braceright>	: "∅"   U2205 # EMPTY SET
 <Multi_key> <slash> <equal>  	: "≠"   U2260 # NOT EQUAL TO
 <Multi_key> <equal> <slash>  	: "≠"   U2260 # NOT EQUAL TO
-<Multi_key> <less> <equal> 	: "≤" U2264 # LESS-THAN OR EQUAL TO
+#<Multi_key> <less> <equal> 	: "≤" U2264 # LESS-THAN OR EQUAL TO
 <Multi_key> <greater> <equal> 	: "≥" U2265 # GREATER-THAN OR EQUAL TO
 <Multi_key> <d> <i>		: "⌀"   U2300 # DIAMETER SIGN
 <Multi_key> <parenleft> <1> <parenright> 	: "①"   U2460 # CIRCLED DIGIT ONE
@@ -2404,6 +2404,9 @@
 <Multi_key> <f> <f> : "∫"
 <Multi_key> <8> <c> : "∝"
 <Multi_key> <asciitilde> <equal> : "≈"
+<Multi_key> <equal> <greater> : "⇒"
+<Multi_key> <less> <equal> : "⇐"
+<Multi_key> <equal> <less> <greater> : "⇔"
 
 # logic
 <Multi_key> <minus> <exclam> : "¬"
