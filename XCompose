@@ -1957,6 +1957,8 @@
 <Multi_key> <g> <c> : "ψ"
 <Multi_key> <g> <u> : "ω"
 <Multi_key> <g> <q> : "ϙ"
+<Multi_key> <g> <grave> <q> : "ϟ"
+<Multi_key> <g> <grave> <c> : "ϛ"
 
 <Multi_key> <g> <comma> <a> : "ᾳ"
 <Multi_key> <g> <comma> <h> : "ῃ"
@@ -2078,9 +2080,9 @@
 <Multi_key> <g> <underscore> <a> : "ᾱ"
 <Multi_key> <g> <underscore> <i> : "ῑ"
 <Multi_key> <g> <underscore> <y> : "ῡ"
-<Multi_key> <g> <u> <a> : "ᾰ"
-<Multi_key> <g> <u> <i> : "ῐ"
-<Multi_key> <g> <u> <y> : "ῠ"
+<Multi_key> <g> <asciicircum> <a> : "ᾰ"
+<Multi_key> <g> <asciicircum> <i> : "ῐ"
+<Multi_key> <g> <asciicircum> <y> : "ῠ"
 
 # uppercase greek
 <Multi_key> <g> <A> : "Α"
@@ -2108,6 +2110,8 @@
 <Multi_key> <g> <C> : "Ψ"
 <Multi_key> <g> <U> : "Ω"
 <Multi_key> <g> <Q> : "Ϙ"
+<Multi_key> <g> <grave> <Q> : "Ϟ"
+<Multi_key> <g> <grave> <C> : "Ϛ"
 
 <Multi_key> <g> <comma> <A> : "ᾼ"
 <Multi_key> <g> <comma> <H> : "ῌ"
@@ -2229,9 +2233,9 @@
 <Multi_key> <g> <underscore> <A> : "Ᾱ"
 <Multi_key> <g> <underscore> <I> : "Ῑ"
 <Multi_key> <g> <underscore> <Y> : "Ῡ"
-<Multi_key> <g> <u> <A> : "Ᾰ"
-<Multi_key> <g> <u> <I> : "Ῐ"
-<Multi_key> <g> <u> <Y> : "Ῠ"
+<Multi_key> <g> <asciicircum> <A> : "Ᾰ"
+<Multi_key> <g> <asciicircum> <I> : "Ῐ"
+<Multi_key> <g> <asciicircum> <Y> : "Ῠ"
 
 # extra greek
 <Multi_key> <F> <F> : "ꟻ"
@@ -2252,7 +2256,7 @@
 <Multi_key> <g> <grave> <colon> <space> : "῭"
 <Multi_key> <g> <asciitilde> <colon> <space> : "῁"
 <Multi_key> <g> <underscore> <space> : "ˉ"
-<Multi_key> <g> <u> <space> : "˘"
+<Multi_key> <g> <asciicircum> <space> : "˘"
 #
 # extra arrows
 <Multi_key> <minus> <n> <w> : "↖"
