@@ -11,7 +11,7 @@
 # Spacing versions of dead accents
 <Multi_key> <apostrophe> <apostrophe> 	: "´"   acute # ACUTE ACCENT
 <Multi_key> <minus> <asciicircum> 	: "¯"   macron # MACRON
-<Multi_key> <asciicircum> <minus> 	: "¯"   macron # MACRON
+#<Multi_key> <asciicircum> <minus> 	: "¯"   macron # MACRON
 <Multi_key> <underscore> <underscore> 	: "¯"   macron # MACRON
 <Multi_key> <underscore> <asciicircum> 	: "¯"   macron # MACRON
 <Multi_key> <space> <parenleft>		: "˘"   breve # BREVE
@@ -217,7 +217,7 @@
 <Multi_key> <asciicircum> <3>    	: "³"   threesuperior # SUPERSCRIPT THREE
 <Multi_key> <3> <asciicircum> 		: "³"   threesuperior # SUPERSCRIPT THREE
 <Multi_key> <asciicircum> <KP_3> 	: "³"   threesuperior # SUPERSCRIPT THREE
-<Multi_key> <m> <u>              	: "µ"   mu # MICRO SIGN
+#<Multi_key> <m> <u>              	: "µ"   mu # MICRO SIGN
 <Multi_key> <slash> <u> 		: "µ"   mu # MICRO SIGN
 <Multi_key> <u> <slash> 		: "µ"   mu # MICRO SIGN
 <Multi_key> <asciicircum> <1>    	: "¹"   onesuperior # SUPERSCRIPT ONE
@@ -2266,6 +2266,7 @@
 <Multi_key> <minus> <less> <greater> 	: "↔"
 <Multi_key> <minus> <k> : "↑"
 <Multi_key> <minus> <j> : "↓"
+<Multi_key> <minus> <n> <s> : "↕"
 
 # various symbols
 <Multi_key> <less> <greater> : "◇"
@@ -2293,6 +2294,14 @@
 # misc
 <Multi_key> <e> <i> : " "
 <Multi_key> <less> <question> <greater> : "�"
+<Multi_key> <m> <u> : "無"
+<Multi_key> <d> <0> : "□"
+<Multi_key> <d> <1> : "⚀"
+<Multi_key> <d> <2> : "⚁"
+<Multi_key> <d> <3> : "⚂"
+<Multi_key> <d> <4> : "⚃"
+<Multi_key> <d> <5> : "⚄"
+<Multi_key> <d> <6> : "⚅"
 
 # blackborad bold/sets
 <Multi_key> <bar> <A> : "𝔸"
@@ -2329,7 +2338,7 @@
 <Multi_key> <H> <W> : "Ƕ"
 
 # extra punctuation
-<Multi_key> <slash> <slash> : "⸮" # irony mark
+<Multi_key> <grave> <question> : "⸮" # irony mark
 <Multi_key> <minus> <period> : "⬝"
 
 # angly brackets
@@ -2369,6 +2378,10 @@
 <Multi_key> <slash> <underscore> <backslash> : "🜂"
 <Multi_key> <backslash> <minus> <slash> : "🜃"
 <Multi_key> <backslash> <underscore> <slash> : "🜄"
+<Multi_key> <less> <asterisk> <greater> : "✧"
+<Multi_key> <less> <numbersign> <asterisk> <greater> : "✦"
+<Multi_key> <less> <asciicircum> <greater> : "☆"
+<Multi_key> <less> <numbersign> <asciicircum> <greater> : "★"
 
 # umlaut
 <Multi_key> <colon> <a> : "ä"
@@ -2411,8 +2424,12 @@
 <Multi_key> <8> <c> : "∝"
 <Multi_key> <asciitilde> <equal> : "≈"
 <Multi_key> <equal> <greater> : "⇒"
-<Multi_key> <less> <equal> : "⇐"
+<Multi_key> <equal> <less> <equal> : "⇐"
 <Multi_key> <equal> <less> <greater> : "⇔"
+<Multi_key> <less> <equal> : "≤"
+<Multi_key> <grave> <underscore> <i> : "ᵢ"
+<Multi_key> <asciicircum> <minus> : "⁻"
+<Multi_key> <m> <minus> : "−"
 
 # logic
 <Multi_key> <minus> <exclam> : "¬"
@@ -2421,6 +2438,8 @@
 <Multi_key> <colon> <equal> : "≔"
 <Multi_key> <T> <T> : "⊤"
 <Multi_key> <underscore> <bar> : "⊥"
+<Multi_key> <l> <ampersand> : "∧"
+<Multi_key> <l> <bar> : "∨"
 
 # gothic
 <Multi_key> <q> <a> : "𐌰"
@@ -2544,5 +2563,4 @@
 <Multi_key> <asciicircum> <asciicircum> <w> : "ʷ"
 <Multi_key> <colon> <plus> : "ː"
 <Multi_key> <grave> <r> : "ɹ"
-
 
