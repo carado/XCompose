@@ -2302,6 +2302,8 @@
 <Multi_key> <d> <4> : "⚃"
 <Multi_key> <d> <5> : "⚄"
 <Multi_key> <d> <6> : "⚅"
+<Multi_key> <bar> <slash> : "✓"
+<Multi_key> <t> <e> <d> : "the industrial revolution and its consequences have been a disaster for the human race"
 
 # blackborad bold/sets
 <Multi_key> <bar> <A> : "𝔸"
@@ -2382,6 +2384,7 @@
 <Multi_key> <less> <numbersign> <asterisk> <greater> : "✦"
 <Multi_key> <less> <asciicircum> <greater> : "☆"
 <Multi_key> <less> <numbersign> <asciicircum> <greater> : "★"
+<Multi_key> <bracketleft> <d> <i> <c> <e> <bracketright> : "🎲"
 
 # umlaut
 <Multi_key> <colon> <a> : "ä"
@@ -2409,9 +2412,11 @@
 <Multi_key> <s> <less> : "⊂"
 <Multi_key> <s> <equal> <less> : "⊆"
 <Multi_key> <s> <exclam> <less> : "⊄"
+<Multi_key> <s> <exclam> <equal> <less> : "⊊"
 <Multi_key> <s> <greater> : "⊃"
 <Multi_key> <s> <equal> <greater> : "⊇"
 <Multi_key> <s> <exclam> <greater> : "⊅"
+<Multi_key> <s> <exclam> <equal> <greater> : "⊋"
 <Multi_key> <s> <parenleft> : "∈"
 <Multi_key> <s> <exclam> <parenleft> : "∉"
 <Multi_key> <s> <0> : "∅"
