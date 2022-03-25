@@ -2344,6 +2344,9 @@
 # extra punctuation
 <Multi_key> <grave> <question> : "⸮" # irony mark
 <Multi_key> <minus> <period> : "⬝"
+<Multi_key> <parenleft> <parenleft> : "⸨"
+<Multi_key> <parenright> <parenright> : "⸩"
+<Multi_key> <period> <3> <minus> : "···"
 
 # angly brackets
 <Multi_key> <parenleft> <less> : "⟨"
@@ -2437,6 +2440,7 @@
 <Multi_key> <grave> <underscore> <i> : "ᵢ"
 <Multi_key> <asciicircum> <minus> : "⁻"
 <Multi_key> <m> <minus> : "−"
+<Multi_key> <equal> <question> : "≟"
 
 # logic
 <Multi_key> <minus> <exclam> : "¬"
