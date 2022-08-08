@@ -2390,6 +2390,8 @@
 <Multi_key> <less> <asciicircum> <greater> : "☆"
 <Multi_key> <less> <numbersign> <asciicircum> <greater> : "★"
 <Multi_key> <bracketleft> <d> <i> <c> <e> <bracketright> : "🎲"
+<Multi_key> <asterisk> <5> : "★"
+<Multi_key> <slash> <exclam> <backslash> : "⚠"
 
 # umlaut
 <Multi_key> <colon> <a> : "ä"
