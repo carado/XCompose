@@ -2453,6 +2453,7 @@
 <Multi_key> <underscore> <bar> : "⊥"
 <Multi_key> <l> <ampersand> : "∧"
 <Multi_key> <l> <bar> : "∨"
+<Multi_key> <bar> <minus> : "⊢"
 
 # gothic
 <Multi_key> <q> <a> : "𐌰"
