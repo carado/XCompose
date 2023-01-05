@@ -2455,6 +2455,9 @@
 <Multi_key> <parenleft> <plus> <parenright> : "⊕"
 <Multi_key> <less> <less> : "≪"
 <Multi_key> <greater> <greater> : "≫"
+<Multi_key> <period> <asterisk> : "⋅"
+<Multi_key> <asciitilde> <greater>: "⪆"
+<Multi_key> <asciitilde> <less>: "⪅"
 
 # logic
 <Multi_key> <minus> <exclam> : "¬"
