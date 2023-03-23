@@ -194,7 +194,7 @@
 
 <Multi_key> <C> <C> <C> <P>             : "☭"   U262D # HAMMER AND SICKLE
 <Multi_key> <O> <A>                     : "Ⓐ"   U24B6 # CIRCLED LATIN CAPITAL LETTER A
-<Multi_key> <less> <3>                  : "♥"   U2665 # BLACK HEART SUIT
+<Multi_key> <less> <3>                  : "❤️"   U2665 # BLACK HEART SUIT
 
 <Multi_key> <colon> <parenright>        : "☺"   U263A # WHITE SMILING FACE
 <Multi_key> <colon> <parenleft>         : "☹"   U2639 # WHITE FROWNING FACE
@@ -2392,6 +2392,7 @@
 <Multi_key> <bracketleft> <d> <i> <c> <e> <bracketright> : "🎲"
 <Multi_key> <asterisk> <5> : "★"
 <Multi_key> <slash> <exclam> <backslash> : "⚠"
+<Multi_key> <l> <o> : "🔒"
 
 # emoji
 <Multi_key> <t> <u> : "👍"
@@ -2538,7 +2539,7 @@
 <Multi_key> <r> <o> : "ᛟ"
 <Multi_key> <r> <d> : "ᛞ"
 
-# IPA
+# IPA phonetics phonology
 # from https://pecorarista.com/posts/type-ipa
 #ones already covered above have been commented out.
 <Multi_key> <a> <a> : "ɐ"
