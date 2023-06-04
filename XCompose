@@ -2463,6 +2463,8 @@
 <Multi_key> <period> <asterisk> : "⋅"
 <Multi_key> <asciitilde> <greater>: "⪆"
 <Multi_key> <asciitilde> <less>: "⪅"
+<Multi_key> <asciitilde> <greater>: "⇝"
+<Multi_key> <less> <asciitilde>: "⇜"
 
 # logic
 <Multi_key> <minus> <exclam> : "¬"
