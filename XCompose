@@ -2303,9 +2303,11 @@
 <Multi_key> <d> <5> : "⚄"
 <Multi_key> <d> <6> : "⚅"
 <Multi_key> <bar> <slash> : "✓"
+<Multi_key> <asciitilde> <x> : "✗"
 <Multi_key> <t> <e> <d> : "the industrial revolution and its consequences have been a disaster for the human race"
 <Multi_key> <j> <asciitilde> : "〜"
 <Multi_key> <u> <w> <u> : "∪ω∪"
+<Multi_key> <slash> <period> <backslash> : "◬"
 
 # colored circles
 <Multi_key> <at> <r> : "🔴"
@@ -2647,9 +2649,6 @@
 <Multi_key> <bracketleft> <h> <bracketright> : "♥"
 <Multi_key> <bracketleft> <s> <bracketright> : "♠"
 <Multi_key> <minus> <bar> : "✝"
-<Multi_key> <plus> <o> <c> : "☿"
-<Multi_key> <slash> <plus> <backslash> : "🜍"
-<Multi_key> <parenleft> <minus> <parenright> : "🜔"
 <Multi_key> <slash> <minus> <backslash> : "🜁"
 <Multi_key> <slash> <underscore> <backslash> : "🜂"
 <Multi_key> <backslash> <minus> <slash> : "🜃"
@@ -2821,6 +2820,12 @@
 <Multi_key> <numbersign> <i> : "#e86a73" # pink
 <Multi_key> <numbersign> <w> : "#c4c9fa" # white
 <Multi_key> <numbersign> <p> : "#403353" # purple
+
+# alchemy
+<Multi_key> <plus> <o> <c> : "☿"
+<Multi_key> <slash> <plus> <backslash> : "🜍"
+<Multi_key> <parenleft> <minus> <parenright> : "🜔"
+<Multi_key> <a> <s> : "♄"
 
 # IPA phonetics phonology
 # from https://pecorarista.com/posts/type-ipa
