@@ -2286,10 +2286,7 @@
 <Multi_key> <parenleft> <period> <parenright> : "◌"
 <Multi_key> <parenleft> <space> <parenright> : "○"
 <Multi_key> <parenleft> <parenright> : "∘" #◦
-<Multi_key> <bar> <greater> : "▷"
-<Multi_key> <less> <bar> : "◁"
-<Multi_key> <f> <bar> <greater> : "▶"
-<Multi_key> <f> <less> <bar> : "◀"
+<Multi_key> <bar> <greater> : "▸"
 
 # misc
 <Multi_key> <e> <i> : " "
@@ -2733,6 +2730,8 @@
 <Multi_key> <asciitilde> <less>: "⪅"
 <Multi_key> <asciitilde> <greater>: "⇝"
 <Multi_key> <less> <asciitilde>: "⇜"
+<Multi_key> <braceleft> <bar> : "⦃"
+<Multi_key> <bar> <braceright> : "⦄"
 
 # logic
 <Multi_key> <minus> <exclam> : "¬"
