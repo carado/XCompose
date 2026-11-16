@@ -1,4 +1,4 @@
-# Uncomment this to include the defaults, apparently
+#* Uncomment this to include the defaults, apparently
 #  -- carado
 #include "%L"
 
@@ -498,7 +498,7 @@
 <Multi_key> <U> <E>              	: "Ĕ"   U0114 # LATIN CAPITAL LETTER E WITH BREVE
 <Multi_key> <b> <E>              	: "Ĕ"   U0114 # LATIN CAPITAL LETTER E WITH BREVE
 <Multi_key> <U> <e>              	: "ĕ"   U0115 # LATIN SMALL LETTER E WITH BREVE
-<Multi_key> <b> <e>              	: "ĕ"   U0115 # LATIN SMALL LETTER E WITH BREVE
+#<Multi_key> <b> <e>              	: "ĕ"   U0115 # LATIN SMALL LETTER E WITH BREVE
 <Multi_key> <period> <E>         	: "Ė"   U0116 # LATIN CAPITAL LETTER E WITH DOT ABOVE
 <Multi_key> <E> <period> 		: "Ė"   U0116 # LATIN CAPITAL LETTER E WITH DOT ABOVE
 <Multi_key> <period> <e>         	: "ė"   U0117 # LATIN SMALL LETTER E WITH DOT ABOVE
@@ -2281,7 +2281,7 @@
 <Multi_key> <bracketleft> <period> <bracketright>        : "▣"
 <Multi_key> <4> <minus> : "▤"
 <Multi_key> <4> <bar>: "▥"
-<Multi_key> <bar> <equal> : "▦"
+#<Multi_key> <bar> <equal> : "▦"
 <Multi_key> <equal> <bar> : "▦"
 <Multi_key> <parenleft> <o> <parenright> : "◎"
 <Multi_key> <parenleft> <period> <parenright> : "◌"
@@ -2657,14 +2657,26 @@
 <Multi_key> <less> <asciicircum> <greater> : "☆"
 <Multi_key> <less> <numbersign> <asciicircum> <greater> : "★"
 <Multi_key> <bracketleft> <d> <i> <c> <e> <bracketright> : "🎲"
+<Multi_key> <asterisk> <4> : "✦"
 <Multi_key> <asterisk> <5> : "★"
+<Multi_key> <asterisk> <6> : "✱"
 <Multi_key> <slash> <exclam> <backslash> : "⚠"
 <Multi_key> <l> <o> : "🔒"
 <Multi_key> <less> <g> : "💎"
+<Multi_key> <s> <p> <k> : "✨"
+<Multi_key> <l> <b> <g> : "🐞"
+<Multi_key> <b> <u> <g> : "🐛"
+<Multi_key> <s> <h> <k> : "🦈"
+<Multi_key> <s> <h> <p> : "🐑"
+<Multi_key> <p> <a> <t> : "🫳"
+<Multi_key> <b> <e> <e> : "🐝"
+<Multi_key> <less> <2> <3> : "💕"
+<Multi_key> <less> <r> <3> : "💞"
+<Multi_key> <asterisk> <y> : "⭐"
 
 # emoji
-<Multi_key> <t> <u> : "👍"
-<Multi_key> <t> <d> : "👎"
+<Multi_key> <t> <h> <u> : "👍"
+<Multi_key> <t> <h> <d> : "👎"
 
 # japanese
 <Multi_key> <t> <s> <u> : "ツ"
@@ -2734,6 +2746,7 @@
 <Multi_key> <less> <asciitilde>: "⇜"
 <Multi_key> <braceleft> <bar> : "⦃"
 <Multi_key> <bar> <braceright> : "⦄"
+<Multi_key> <bar> <equal> : "⊨"
 
 # logic
 <Multi_key> <l> <exclam> : "¬"
@@ -2870,7 +2883,7 @@
 <Multi_key> <R> <R> : "ʀ"
 <Multi_key> <R> <r> : "ʁ"
 #<Multi_key> <asterisk> <h> : "θ"
-<Multi_key> <s> <h> : "ʃ"
+#<Multi_key> <s> <h> : "ʃ"
 <Multi_key> <G> <w> : "ʊ"
 <Multi_key> <G> <x> : "χ"
 <Multi_key> <z> <h> : "ʒ"
@@ -2882,4 +2895,3 @@
 <Multi_key> <asciicircum> <asciicircum> <w> : "ʷ"
 <Multi_key> <colon> <plus> : "ː"
 <Multi_key> <grave> <r> : "ɹ"
-
